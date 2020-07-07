@@ -33,7 +33,7 @@ is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained
 ![training results](https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/train.png?raw=true "training results." | width=300)
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 ![testing results](https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true "testing results." | width=300)
-
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true" width=300>
 The prepared datasets can be obtained through these links: 
 - validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
 - merged: https://drive.google.com/uc?id=1vLvbc08BKP2acOCi_6iVB4BouFR8Foca
