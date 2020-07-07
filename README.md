@@ -32,11 +32,11 @@ The same work of correcting labels has been done also for the Inria and the fuda
 Several neural networks have been trained using those datasets and the one returning better results in terms of accuracy and performances, 
 is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/train.png?raw=true" width=600>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/training.JPG?raw=true" width=600>
 
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true" width=600 label="testing results">
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.JPG?raw=true" width=600>
 
 The prepared datasets can be obtained through these links: 
 - validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
