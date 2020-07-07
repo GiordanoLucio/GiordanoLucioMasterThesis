@@ -32,7 +32,7 @@ Several neural networks have been trained using those datasets and the one retur
 is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images. 
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
-The prepared datasets can be obtained through these links.
+The prepared datasets can be obtained through these links: 
 \link validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
 \link merged: https://drive.google.com/uc?id=1vLvbc08BKP2acOCi_6iVB4BouFR8Foca
 \link inria-fudan: https://drive.google.com/uc?id=1okVY5_vJ6wLrS_SOKha9t0FzGUwMzTb9
