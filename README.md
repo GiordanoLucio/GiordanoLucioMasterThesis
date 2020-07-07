@@ -29,8 +29,10 @@ in our case, person. The parser reads the xml files and deletes all the classes 
 contain any person have been discarded, making it an only person dataset. After that work, the tool labelImg has been used to check the integrity of the data and fix the uncorrect labels.
 The same work of correcting labels has been done also for the Inria and the fudan datasets which were meant to only detect pedestrian, but we are interested on all the person, not only the pedestrians.
 Several neural networks have been trained using those datasets and the one returning better results in terms of accuracy and performances, 
-is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images. 
+is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images.
+![training results](https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/train.png?raw=true)
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
+![testing results](https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true)
 
 The prepared datasets can be obtained through these links: 
 - validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
