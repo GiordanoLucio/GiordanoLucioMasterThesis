@@ -33,10 +33,10 @@ is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
 The prepared datasets can be obtained through these links: 
-\link validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
-\link merged: https://drive.google.com/uc?id=1vLvbc08BKP2acOCi_6iVB4BouFR8Foca
-\link inria-fudan: https://drive.google.com/uc?id=1okVY5_vJ6wLrS_SOKha9t0FzGUwMzTb9
-\link https://drive.google.com/uc?id=1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv
+- validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
+- merged: https://drive.google.com/uc?id=1vLvbc08BKP2acOCi_6iVB4BouFR8Foca
+- inria-fudan: https://drive.google.com/uc?id=1okVY5_vJ6wLrS_SOKha9t0FzGUwMzTb9
+- https://drive.google.com/uc?id=1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv
 
 The folder "scripts" contains a set of Jupyter Notebook which are used on Google Drive through Google colaboratory, to train neural network using Google's GPU.
 
