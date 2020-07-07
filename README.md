@@ -11,7 +11,7 @@ when a certain events occurs, or a certain value is encountered so, useful to mo
 When a certain number of people are seen while being too close, the React on the ThingSpeak platform is triggered and a message is sent to the person in charge of monitoring
 by using a thingHTTP which calls a previously defined WebHook on the IFTTT platform.
 
-\\image of the architecture here
+![image of the architecture here](https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/architecture.JPG?raw=true)
 
 The neural network trained for person detection, are based on the aXeleRate framework which permits to train different neural networks for object detection based on yolo v2.
 The back-ends used for yolo v2 are mobileNets with alpha = 0.25, alpha = 0.50 and alpha = 0.75 and Tiny Yolo. The conversion of the mobilenet in order to be used on the K210
