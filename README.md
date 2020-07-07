@@ -11,7 +11,7 @@ when a certain events occurs, or a certain value is encountered so, useful to mo
 When a certain number of people are seen while being too close, the React on the ThingSpeak platform is triggered and a message is sent to the person in charge of monitoring
 by using a thingHTTP which calls a previously defined WebHook on the IFTTT platform.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/architecture.JPG?raw=true" width=500>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/architecture.JPG?raw=true" width=600>
 
 
 The neural network trained for person detection, are based on the aXeleRate framework which permits to train different neural networks for object detection based on yolo v2.
@@ -32,12 +32,11 @@ The same work of correcting labels has been done also for the Inria and the fuda
 Several neural networks have been trained using those datasets and the one returning better results in terms of accuracy and performances, 
 is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/train.png?raw=true" width=500>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/train.png?raw=true" width=600>
 
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
-![testing results](https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true "testing results." | width=300)
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true" width=300>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.png?raw=true" width=600 label="testing results">
 
 The prepared datasets can be obtained through these links: 
 - validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
