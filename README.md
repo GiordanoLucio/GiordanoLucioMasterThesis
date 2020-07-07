@@ -44,5 +44,6 @@ The prepared datasets can be obtained through these links:
 - inria-fudan: https://drive.google.com/uc?id=1okVY5_vJ6wLrS_SOKha9t0FzGUwMzTb9
 - https://drive.google.com/uc?id=1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv
 
-The folder "scripts" contains a set of Jupyter Notebook which are used on Google Drive through Google colaboratory, to train neural network using Google's GPU.
+For the training of the Network, a set of Jupyter Notebooks are provided. Those Notebooks are used on Google Drive through Google colaboratory, to train neural networks using Google's GPU.
+
 
