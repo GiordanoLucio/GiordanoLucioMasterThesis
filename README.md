@@ -39,10 +39,12 @@ For Testing purposes, a dataset has been created by taking photos on the streets
 <img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.JPG?raw=true" width=600>
 
 The prepared datasets can be obtained through these links: 
-- validation: https://drive.google.com/uc?id=1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1
-- merged: https://drive.google.com/uc?id=1vLvbc08BKP2acOCi_6iVB4BouFR8Foca
-- inria-fudan: https://drive.google.com/uc?id=1okVY5_vJ6wLrS_SOKha9t0FzGUwMzTb9
-- https://drive.google.com/uc?id=1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv
+
+- Training_merged: https://drive.google.com/file/d/1vLvbc08BKP2acOCi_6iVB4BouFR8Foca/view?usp=sharing
+- Training_inria-fudan: https://drive.google.com/file/d/1okVY5_vJ6wLrS_SOKha9t0FzGUwMzTb9/view?usp=sharing
+- Training_fudan: https://drive.google.com/file/d/1UTUoGip8gCK3HN_QlFdDkfWbElEZNpYa/view?usp=sharing
+- validation: https://drive.google.com/file/d/1drwtvsCxHWzhTPTs4uvVWqBoWex7jli1/view?usp=sharing
+- testing: https://drive.google.com/file/d/1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv/view?usp=sharing
 
 For the training of the Network, a set of Jupyter Notebooks are provided. Those Notebooks are used on Google Drive through Google colaboratory, to train neural networks using Google's GPU.
 
