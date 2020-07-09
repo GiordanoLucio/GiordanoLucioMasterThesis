@@ -11,7 +11,7 @@ when a certain events occurs, or a certain value is encountered so, useful to mo
 When a certain number of people are seen while being too close, the React on the ThingSpeak platform is triggered and a message is sent to the person in charge of monitoring
 by using a thingHTTP which calls a previously defined WebHook on the IFTTT platform.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/architecture.JPG?raw=true" width=600>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/architecture.JPG?raw=true" width=600>
 
 
 The neural network trained for person detection, are based on the aXeleRate framework which permits to train different neural networks for object detection based on yolo v2.
@@ -32,11 +32,11 @@ The same work of correcting labels has been done also for the Inria and the fuda
 Several neural networks have been trained using those datasets and the one returning better results in terms of accuracy and performances, 
 is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/training.JPG?raw=true" width=600>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/training.JPG?raw=true" width=600>
 
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/testing.JPG?raw=true" width=600>
+<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/testing.JPG?raw=true" width=600>
 
 The prepared datasets can be obtained through these links: 
 
@@ -47,5 +47,12 @@ The prepared datasets can be obtained through these links:
 - testing: https://drive.google.com/file/d/1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv/view?usp=sharing
 
 For the training of the Network, a set of Jupyter Notebooks are provided. Those Notebooks are used on Google Drive through Google colaboratory, to train neural networks using Google's GPU.
+The notebooks can be opened directly in colab by using these links:
+
+- Training Yolo v2 Detection with TinyYolo as backend: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Ti6EBcglbc51PYyQ45pwRaylU2v0sCvj?usp=sharing)
+
+- Training Yolo v2 Detection with MobileNet with alpha=0.75 as backend: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hWjQul1COpT5i0W0CbdbhJZWHdGxuzsk?usp=sharing)
+
+- Training Yolo v2 Detection with MobileNet with alpha=0.50 as backend [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bKf1seGavhgPVu8Q4ZbIfaIyT-zcdkxo?usp=sharing)
 
 
