@@ -80,9 +80,9 @@ while(True):
         #check if boxes overlap
         if (len(boxes) > 0):
             print("found ", len(boxes), " boxes")
-        for i in range (0,len(boxes)-2):
+        for i in range (0,len(boxes)-1):
             print("checking box: ", i)
-            for j in range(i+1,len(boxes)-1):
+            for j in range(i+1,len(boxes)):
                 print("checking box: ", j)
                 if(doOverlap(boxes[i],boxes[j])):
                     print("Collision detected!!")
