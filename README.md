@@ -47,5 +47,12 @@ The prepared datasets can be obtained through these links:
 - testing: https://drive.google.com/file/d/1h4c2tYSP2YamTaLvJa3uAwPPD3tS4XTv/view?usp=sharing
 
 For the training of the Network, a set of Jupyter Notebooks are provided. Those Notebooks are used on Google Drive through Google colaboratory, to train neural networks using Google's GPU.
+The notebooks can be obened directly in colab by using these links:
+
+- Training Yolo v2 Detection with TinyYolo as backend: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Ti6EBcglbc51PYyQ45pwRaylU2v0sCvj?usp=sharing)
+
+- Training Yolo v2 Detection with MobileNet with alpha=0.75 as backend: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1hWjQul1COpT5i0W0CbdbhJZWHdGxuzsk?usp=sharing)
+
+- Training Yolo v2 Detection with MobileNet with alpha=0.50 as backend [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bKf1seGavhgPVu8Q4ZbIfaIyT-zcdkxo?usp=sharing)
 
 
