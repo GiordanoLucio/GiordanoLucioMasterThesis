@@ -34,6 +34,7 @@ is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained
 
 <!-- <img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/training.JPG?raw=true" width=600> -->
 
+Training results
 | Model Backend        | Dataset       | Epochs | mAp  | Fscore | Precision | Recall |
 |----------------------|---------------|--------|------|--------|-----------|--------|
 | MobileNet alpha=0.75 | mergedDataset | 300    | 0.35 | 0.66   | 0.75      | 0.59   |
@@ -46,7 +47,19 @@ is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained
 
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/testing.JPG?raw=true" width=600>
+<!-- <img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/testing.JPG?raw=true" width=600> -->
+
+Testing results
+| Model Backend        | Fscore | Precision | Recall | Threshold |
+|----------------------|--------|-----------|--------|-----------|
+| MobileNet alpha=0.75 | 0.364  | 0.585     | 0.264  | 0.25      |
+| MobileNet alpha=0.75 | 0.318  | 300       | 0.17   | 0.25      |
+| MobileNet alpha=0.50 | 0.390  | 0.678     | 0.274  | 0.25      |
+| MobileNet alpha=0.50 | 0.374  | 0.742     | 0.250  | 0.25      |
+| MobileNet alpha=0.25 | 0.284  | 0.590     | 0.187  | 0.25      |
+| MobileNet alpha=0.25 | 0.204  | 0.694     | 0.120  | 0.25      |
+| Tiny Yolo            | 0.213  | 0.378     | 0.149  | 0.25      |
+| Tiny Yolo            | 0.184  | 0.560     | 0.110  | 0.25      |
 
 The prepared datasets can be obtained through these links: 
 
