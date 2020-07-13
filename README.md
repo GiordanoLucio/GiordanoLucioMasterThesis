@@ -32,7 +32,17 @@ The same work of correcting labels has been done also for the Inria and the fuda
 Several neural networks have been trained using those datasets and the one returning better results in terms of accuracy and performances, 
 is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained using the merged dataset which contains around 3000 images.
 
-<img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/training.JPG?raw=true" width=600>
+<!-- <img src="https://github.com/GiordanoLucio/GiordanoLucioMasterThesis/blob/master/images/training.JPG?raw=true" width=600> -->
+
+| Model Backend        | Dataset       | Epochs | mAp  | Fscore | Precision | Recall |
+|----------------------|---------------|--------|------|--------|-----------|--------|
+| MobileNet alpha=0.75 | mergedDataset | 300    | 0.35 | 0.66   | 0.75      | 0.59   |
+| MobileNet alpha=0.75 | PascalVoc     | 300    | 0.17 | 0.098  | 0.375     | 0.056  |
+| MobileNet alpha=0.75 | Inria         | 300    | 0.22 | 0.25   | 0.314     | 0.207  |
+| MobileNet alpha=0.75 | InriaFudan    | 300    | 0.22 | 0.22   | 0.218     | 0.226  |
+| MobileNet alpha=0.50 | mergedDataset | 300    | 0.35 | 0.66   | 0.74      | 0.60   |
+| MobileNet alpha=0.25 | mergedDataset | 300    | 0.22 | 0.67   | 0.775     | 0.584  |
+| Tiny Yolo            | mergedDataset | 300    | 0.23 | 0.559  | 0.65      | 0.490  |
 
 For Testing purposes, a dataset has been created by taking photos on the streets of Madrid by using the camera sensor ov2640 equipped on the MaixGo board used for this work. It contains 130 images containing at least 1 person.
 
