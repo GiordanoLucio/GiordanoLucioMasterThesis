@@ -61,6 +61,14 @@ Testing results
 | Tiny Yolo            | 0.213  | 0.378     | 0.149  | 0.25      |
 | Tiny Yolo            | 0.184  | 0.560     | 0.110  | 0.35      |
 
+Models weights and Performances
+| Model backend        | Fps | Weight  | Fps dual-buff |
+|----------------------|-----|---------|---------------|
+| MobileNet alpha=0.75 | 12  | 1.859KB | 20            |
+| MobileNet alpha=0.50 | 15  | 862KB   | 29            |
+| MobileNet alpha=0.25 | 16  | 246KB   | 32            |
+| Tiny Yolo            | 162 | 2.231KB | 32            |
+
 The prepared datasets can be obtained through these links: 
 
 - Training_merged: https://drive.google.com/file/d/1vLvbc08BKP2acOCi_6iVB4BouFR8Foca/view?usp=sharing
