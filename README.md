@@ -37,7 +37,7 @@ is yolo v2 built using mobilenet with alpha = 0.50 as feature extractor, trained
 Training results
 | Model Backend        | Dataset       | Epochs | mAp  | Fscore | Precision | Recall |
 |----------------------|---------------|--------|------|--------|-----------|--------|
-| MobileNet alpha=0.75 | mergedDataset | 300    | 0.35 | 0.66   | 0.75      | 0.59   |
+| MobileNet alpha=0.75 | mergedDataset | 300    | 0.35 | 0.66   | 0.76      | 0.59   |
 | MobileNet alpha=0.75 | PascalVoc     | 300    | 0.17 | 0.098  | 0.375     | 0.056  |
 | MobileNet alpha=0.75 | Inria         | 300    | 0.22 | 0.25   | 0.314     | 0.207  |
 | MobileNet alpha=0.75 | InriaFudan    | 300    | 0.22 | 0.22   | 0.218     | 0.226  |
@@ -53,13 +53,13 @@ Testing results
 | Model Backend        | Fscore | Precision | Recall | Threshold |
 |----------------------|--------|-----------|--------|-----------|
 | MobileNet alpha=0.75 | 0.364  | 0.585     | 0.264  | 0.25      |
-| MobileNet alpha=0.75 | 0.318  | 300       | 0.17   | 0.25      |
+| MobileNet alpha=0.75 | 0.318  | 0.750     | 0.201  | 0.35      |
 | MobileNet alpha=0.50 | 0.390  | 0.678     | 0.274  | 0.25      |
-| MobileNet alpha=0.50 | 0.374  | 0.742     | 0.250  | 0.25      |
+| MobileNet alpha=0.50 | 0.374  | 0.742     | 0.250  | 0.35      |
 | MobileNet alpha=0.25 | 0.284  | 0.590     | 0.187  | 0.25      |
-| MobileNet alpha=0.25 | 0.204  | 0.694     | 0.120  | 0.25      |
+| MobileNet alpha=0.25 | 0.204  | 0.694     | 0.120  | 0.35      |
 | Tiny Yolo            | 0.213  | 0.378     | 0.149  | 0.25      |
-| Tiny Yolo            | 0.184  | 0.560     | 0.110  | 0.25      |
+| Tiny Yolo            | 0.184  | 0.560     | 0.110  | 0.35      |
 
 The prepared datasets can be obtained through these links: 
 
