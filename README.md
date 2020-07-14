@@ -67,7 +67,7 @@ Models weights and Performances
 | MobileNet alpha=0.75 | 12  | 1.859KB | 20            |
 | MobileNet alpha=0.50 | 15  | 862KB   | 29            |
 | MobileNet alpha=0.25 | 16  | 246KB   | 32            |
-| Tiny Yolo            | 162 | 2.231KB | 32            |
+| Tiny Yolo            | 16  | 2.231KB | 32            |
 
 The prepared datasets can be obtained through these links: 
 
