@@ -86,4 +86,7 @@ The notebooks can be opened directly in colab by using these links:
 
 - Training Yolo v2 Detection with MobileNet with alpha=0.50 as backend [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bKf1seGavhgPVu8Q4ZbIfaIyT-zcdkxo?usp=sharing)
 
+For the future works of the project, we plan on training more yolo v2 networks using smaller feature extractors than mobilenet and Tiny Yolo. For this purpose, we are trying to prune Tiny Yolo.
+We have succesfully trained a neural network using a pruned version of Tiny Yolo which contains only 1,3M parameters, instead of the 2,27M parameters of the standard Tiny Yolo. It reached 0.20 mAp in validation, in around 150 epochs which, for now, seems a good results considering that it only took few hours. The pruned versions of Tiny yolo can be trained through the code written at the end of the first colab notebook. 
+ 
 
